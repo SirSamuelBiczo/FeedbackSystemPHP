@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root
+{
+    --feedback-value-color: #1cd2ff;
+    --feedback-date-color: #767676;
+    --feedback-text-color: #333;
+}
+
+.feedback
+{
+    background-color: var(--feedback-bg-color);
+}
+
+.feedback .user
+{
+    font-family: "Poppins", sans-serif;
+}
+
+.feedback .date
+{
+    font-family: "Calibri Light", sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--feedback-date-color);
+
+}
+
+.feedback img
+{
+    position: relative;
+    top: 9px;
+}
+
+.feedback i
+{
+    color: var(--feedback-value-color);
+}
+
+.feedback .text
+{
+    font-family: "Calibri Light", sans-serif;
+    color: var(--feedback-text-color);
+}
